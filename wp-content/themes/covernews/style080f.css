@@ -7654,7 +7654,8 @@ body.dark .slider-figcaption-1 .article-title a:hover,
     }
     
     body{
-		padding-right:10px;
+		padding:10px;
+	         margin: 5px;
 		
 	}
     
