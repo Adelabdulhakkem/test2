@@ -2091,7 +2091,7 @@ body.dark #loader{
     margin: 0;
     width: 100% !important;
     height: 100% !important;
-    object-fit: cover;
+  
 }
 
 .read-bg-img.data-bg-hover.data-bg-categorised a,
@@ -3973,7 +3973,7 @@ article .em-posts-promotions .widget
 
 @media only screen and (max-width: 767px) {
     #scroll-up {
-        right: 20px;
+        right: 50%;
         bottom: 20px;
     }
 }
@@ -5782,9 +5782,9 @@ span.header-after:after {
     content: '';
     left: 0;
     bottom: 0;
-    width: 60px;
+    width: 100%;
     height: 3px;
-    background: #bb1919;
+    background: #e1a012;
 }
 
 
@@ -5793,11 +5793,11 @@ span.border-after{
     margin-top: 5px;
     height: 3px;
     width: 60px;
-    background-color: #bb1919;
+    background-color: #e1a012;
 }
 
 .main-story-wrapper span.border-after{
-    background-color: #bb1919;
+    background-color: #e1a012;
 
 }
 
@@ -7599,3 +7599,56 @@ body.dark .slider-figcaption-1 .article-title a:hover,
     margin-left: 0;
 }
 /* for elespare */
+
+
+ .footer
+            {
+                
+                background-color:#000;
+                
+             
+            }
+             .footer .site-i h3
+             {
+                 font-size:50px;
+                 margin-bottom:30px;
+				 font-weight:bold;
+                 color:#e7e7e7;
+                 font-family:"Gill Sans", sans-serif;
+             }
+           
+.footer .helpful-links h2{
+    font-size: 22px;
+    color:#fff;
+    margin-bottom: 20px;
+    padding-right:5px;
+    
+}
+.footer .helpful-links li, .footer .helpful-links li a
+{
+      padding:10px;
+      color:#f5f5f5;
+}
+         
+ 
+
+.list1 li 
+{
+    display:inline-block;
+    color:Red;
+    padding:10px;
+    font-size:25px;
+}
+@media screen and (max-width: 650px)
+{
+    .second-row , .helpful-links
+    {
+        text-align:center;
+        color:#fff;
+        
+        
+    }
+    
+    
+    
+}
