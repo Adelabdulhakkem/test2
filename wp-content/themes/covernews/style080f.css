@@ -46,6 +46,7 @@ html {
 
 body {
     margin: 0;
+    padding:0px;
 
 }
 
@@ -7654,8 +7655,9 @@ body.dark .slider-figcaption-1 .article-title a:hover,
     }
     
     body{
-		padding-right:10px;
-		
+		padding:0px;
+		margin:opx;
+		width:100%;
 	}
     
 }
